@@ -1,4 +1,4 @@
-package com.design.patterns.reponsibility_chain;
+package com.study.code.design_pattern.patterns.reponsibility_chain;
 
 /**
  * @ClassName: PurchaseRequest
@@ -13,7 +13,7 @@ public class PurchaseRequest {
     // 请求金额
     private float price = 0.0f;
 
-    private int id ;
+    private int id;
 
     public PurchaseRequest(int type, float price, int id) {
         this.type = type;

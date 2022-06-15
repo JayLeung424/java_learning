@@ -1,6 +1,4 @@
-package com.design.patterns.decorator;
-
-import com.design.patterns.decorator.Drink;
+package com.study.code.design_pattern.patterns.decorator;
 
 /**
  * @ClassName: Coffee

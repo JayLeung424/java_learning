@@ -17,6 +17,7 @@ public class ThreadDemo {
      * 复制思想:
      * 当我们往一个容器添加元素的时候，不直接往当前容器添加，而是先将当前容器进行 Copy，
      * 复制出一个新的容器，然后新的容器里添加元素，添加完元素之后，再将原容器的引用指向新的容器。
+     *
      * @param args
      */
     public static void main(String[] args) {

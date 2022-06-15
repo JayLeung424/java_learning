@@ -1,6 +1,6 @@
-package com.design.patterns.factory.simple_factory.order;
+package com.study.code.design_pattern.patterns.factory.simple_factory.order;
 
-import com.design.patterns.factory.simple_factory.pizza.Pizza;
+import com.study.code.design_pattern.patterns.factory.simple_factory.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

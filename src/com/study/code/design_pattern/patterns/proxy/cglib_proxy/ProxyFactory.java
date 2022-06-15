@@ -1,12 +1,10 @@
-package com.design.patterns.proxy.cglib_proxy;
+package com.study.code.design_pattern.patterns.proxy.cglib_proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 /**
  * @ClassName: TeacherDaoProxy

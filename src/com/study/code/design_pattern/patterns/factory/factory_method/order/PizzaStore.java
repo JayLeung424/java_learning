@@ -1,4 +1,4 @@
-package com.design.patterns.factory.factory_method.order;
+package com.study.code.design_pattern.patterns.factory.factory_method.order;
 
 /**
  * @ClassName: PizzaStore

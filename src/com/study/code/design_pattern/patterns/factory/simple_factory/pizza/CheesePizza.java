@@ -1,4 +1,4 @@
-package com.design.patterns.factory.simple_factory.pizza;
+package com.study.code.design_pattern.patterns.factory.simple_factory.pizza;
 
 /**
  * @ClassName: CheesePizza

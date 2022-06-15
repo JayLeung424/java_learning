@@ -1,4 +1,4 @@
-package com.design.patterns.singleton.eager.type2;
+package com.study.code.design_pattern.patterns.singleton.eager.type2;
 
 /**
  * @ClassName: SingletonTest

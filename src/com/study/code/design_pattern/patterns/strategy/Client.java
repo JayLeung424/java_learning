@@ -1,4 +1,4 @@
-package com.design.patterns.strategy;
+package com.study.code.design_pattern.patterns.strategy;
 
 /**
  * @ClassName: Client

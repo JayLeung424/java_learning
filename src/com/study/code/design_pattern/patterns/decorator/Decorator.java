@@ -1,4 +1,4 @@
-package com.design.patterns.decorator;
+package com.study.code.design_pattern.patterns.decorator;
 
 /**
  * @ClassName: Decorator

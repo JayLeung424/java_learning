@@ -1,4 +1,4 @@
-package com.design.patterns.reponsibility_chain;
+package com.study.code.design_pattern.patterns.reponsibility_chain;
 
 /**
  * @ClassName: DepartmentApprover
@@ -6,7 +6,7 @@ package com.design.patterns.reponsibility_chain;
  * @Author: jiel
  * @Date: 2022/4/20 14:58
  **/
-public class DepartmentApprover extends Approver{
+public class DepartmentApprover extends Approver {
 
     public DepartmentApprover(String name) {
         super(name);
@@ -14,11 +14,11 @@ public class DepartmentApprover extends Approver{
 
     @Override
     public void processRequest(PurchaseRequest request) {
-        if (request.getPrice() <= 5000f){
-            System.out.println(" 请求编号 id= " +request.getId() + "被"+this.name +"处理了");
-        }else {
+        if (request.getPrice() <= 5000f) {
+            System.out.println(" 请求编号 id= " + request.getId() + "被" + this.name + "处理了");
+        } else {
             // 金额处理不了 让下一级处理
-           approver.processRequest(request);
+            approver.processRequest(request);
         }
     }
 }

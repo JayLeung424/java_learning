@@ -1,4 +1,4 @@
-package com.design.patterns.state;
+package com.study.code.design_pattern.patterns.state;
 
 /**
  * 不能抽奖的状态
@@ -24,6 +24,7 @@ public class NoRaffleState extends State {
 
     /**
      * 当前状态不可以抽奖
+     *
      * @return
      */
     @Override

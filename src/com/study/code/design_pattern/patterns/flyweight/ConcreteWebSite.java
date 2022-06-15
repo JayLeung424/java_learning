@@ -1,4 +1,4 @@
-package com.design.patterns.flyweight;
+package com.study.code.design_pattern.patterns.flyweight;
 
 /**
  * @ClassName: ConcreteWebSite

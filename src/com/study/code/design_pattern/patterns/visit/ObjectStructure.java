@@ -1,4 +1,4 @@
-package com.design.patterns.visit;
+package com.study.code.design_pattern.patterns.visit;
 
 import java.util.LinkedList;
 import java.util.List;

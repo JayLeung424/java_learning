@@ -1,4 +1,4 @@
-package com.design.patterns.strategy.improve;
+package com.study.code.design_pattern.patterns.strategy.improve;
 
 /**
  * @ClassName: GoodFlyBehavior
@@ -6,7 +6,7 @@ package com.design.patterns.strategy.improve;
  * @Author: jiel
  * @Date: 2022/4/21 19:42
  **/
-public class GoodFlyBehavior implements FlyBehavior{
+public class GoodFlyBehavior implements FlyBehavior {
     @Override
     public void fly() {
         System.out.println("特别擅长飞行... ");

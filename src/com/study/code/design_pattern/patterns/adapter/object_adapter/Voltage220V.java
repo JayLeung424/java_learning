@@ -1,4 +1,4 @@
-package com.design.patterns.adapter.object_adapter;
+package com.study.code.design_pattern.patterns.adapter.object_adapter;
 
 /**
  * @ClassName: Voltage220V

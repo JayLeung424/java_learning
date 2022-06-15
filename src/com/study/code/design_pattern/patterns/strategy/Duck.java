@@ -1,4 +1,4 @@
-package com.design.patterns.strategy;
+package com.study.code.design_pattern.patterns.strategy;
 
 /**
  * @ClassName: Duck
@@ -10,6 +10,7 @@ public abstract class Duck {
 
     public Duck() {
     }
+
     // 显示鸭子的信息
     public abstract void dispaly();
 

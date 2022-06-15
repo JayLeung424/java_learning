@@ -1,4 +1,4 @@
-package com.design.patterns.adapter.class_adapter;
+package com.study.code.design_pattern.patterns.adapter.class_adapter;
 
 /**
  * @ClassName: VoltageAdapter

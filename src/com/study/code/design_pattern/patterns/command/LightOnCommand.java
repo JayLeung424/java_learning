@@ -1,4 +1,4 @@
-package com.design.patterns.command;
+package com.study.code.design_pattern.patterns.command;
 
 /**
  * @ClassName: LightOnCommand

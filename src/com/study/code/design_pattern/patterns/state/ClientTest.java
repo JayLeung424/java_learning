@@ -1,10 +1,10 @@
-package com.design.patterns.state;
+package com.study.code.design_pattern.patterns.state;
 
 
 public class ClientTest {
 
-	public static void main(String[] args) {
-	    // 创建活动对象 奖品有1个奖品
+    public static void main(String[] args) {
+        // 创建活动对象 奖品有1个奖品
         RaffleActivity activity = new RaffleActivity(1);
 
         // 连续抽奖300次
@@ -16,6 +16,6 @@ public class ClientTest {
             // 第二步抽奖
             activity.raffle();
         }
-	}
+    }
 
 }

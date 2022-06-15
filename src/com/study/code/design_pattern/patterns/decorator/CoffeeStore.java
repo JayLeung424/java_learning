@@ -1,11 +1,8 @@
-package com.design.patterns.decorator;
+package com.study.code.design_pattern.patterns.decorator;
 
-import com.design.patterns.decorator.mycoffee.LongBlackCoffee;
-import com.design.patterns.decorator.spice.Chocolate;
-import com.design.patterns.decorator.spice.Milk;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+import com.study.code.design_pattern.patterns.decorator.mycoffee.LongBlackCoffee;
+import com.study.code.design_pattern.patterns.decorator.spice.Chocolate;
+import com.study.code.design_pattern.patterns.decorator.spice.Milk;
 
 /**
  * @ClassName: Client

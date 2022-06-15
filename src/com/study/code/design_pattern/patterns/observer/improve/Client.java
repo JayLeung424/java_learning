@@ -1,4 +1,4 @@
-package com.design.patterns.observer.improve;
+package com.study.code.design_pattern.patterns.observer.improve;
 
 public class Client {
     public static void main(String[] args) {

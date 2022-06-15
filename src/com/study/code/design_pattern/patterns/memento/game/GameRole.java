@@ -1,4 +1,4 @@
-package com.design.patterns.memento.game;
+package com.study.code.design_pattern.patterns.memento.game;
 
 /**
  * @ClassName: GameRole

@@ -1,4 +1,4 @@
-package com.design.patterns.strategy;
+package com.study.code.design_pattern.patterns.strategy;
 
 
 /**
@@ -15,7 +15,7 @@ public class PekingDuck extends Duck {
 
     // 因为北京鸭子 不可以飞翔 所以需要重新写fly()
     @Override
-    public void fly(){
+    public void fly() {
         System.out.println("北京鸭子不能飞翔");
     }
 }

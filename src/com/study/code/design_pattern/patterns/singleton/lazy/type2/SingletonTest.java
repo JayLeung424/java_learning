@@ -1,4 +1,4 @@
-package com.design.patterns.singleton.lazy.type2;
+package com.study.code.design_pattern.patterns.singleton.lazy.type2;
 
 import java.util.Objects;
 

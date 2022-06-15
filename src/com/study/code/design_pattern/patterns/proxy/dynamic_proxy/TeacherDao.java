@@ -1,4 +1,4 @@
-package com.design.patterns.proxy.dynamic_proxy;
+package com.study.code.design_pattern.patterns.proxy.dynamic_proxy;
 
 /**
  * @ClassName: TeacherDao

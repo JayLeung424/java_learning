@@ -1,6 +1,6 @@
-package com.design.patterns.decorator.mycoffee;
+package com.study.code.design_pattern.patterns.decorator.mycoffee;
 
-import com.design.patterns.decorator.Coffee;
+import com.study.code.design_pattern.patterns.decorator.Coffee;
 
 /**
  * @ClassName: EspressoCoffee

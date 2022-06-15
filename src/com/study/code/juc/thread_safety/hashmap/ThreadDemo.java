@@ -19,7 +19,7 @@ public class ThreadDemo {
             String key = String.valueOf(i);
             new Thread(() -> {
                 // 往集合中添加内容
-                hashMap.put(key,UUID.randomUUID().toString().substring(0, 8));
+                hashMap.put(key, UUID.randomUUID().toString().substring(0, 8));
                 // 从集合中获取内容
                 System.out.println(hashMap);
             }, String.valueOf(i)).start();

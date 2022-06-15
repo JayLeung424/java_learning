@@ -1,4 +1,4 @@
-package com.design.patterns.reponsibility_chain;
+package com.study.code.design_pattern.patterns.reponsibility_chain;
 
 /**
  * @ClassName: Approver

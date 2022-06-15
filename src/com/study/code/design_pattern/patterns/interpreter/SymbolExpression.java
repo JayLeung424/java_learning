@@ -1,4 +1,4 @@
-package com.design.patterns.interpreter;
+package com.study.code.design_pattern.patterns.interpreter;
 
 import java.util.HashMap;
 
@@ -8,21 +8,22 @@ import java.util.HashMap;
  */
 public class SymbolExpression extends Expression {
 
-	protected Expression left;
-	protected Expression right;
+    protected Expression left;
+    protected Expression right;
 
-	public SymbolExpression(Expression left, Expression right) {
-		this.left = left;
-		this.right = right;
-	}
+    public SymbolExpression(Expression left, Expression right) {
+        this.left = left;
+        this.right = right;
+    }
 
-	/**
-	 * 因为 SymbolExpression 是让其子类来实现， 所以interpreter是一个默认实现
-	 * @param var
-	 * @return
-	 */
-	@Override
-	public int interpreter(HashMap<String, Integer> var) {
-		return 0;
-	}
+    /**
+     * 因为 SymbolExpression 是让其子类来实现， 所以interpreter是一个默认实现
+     *
+     * @param var
+     * @return
+     */
+    @Override
+    public int interpreter(HashMap<String, Integer> var) {
+        return 0;
+    }
 }

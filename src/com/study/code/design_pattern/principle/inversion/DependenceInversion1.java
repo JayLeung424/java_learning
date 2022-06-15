@@ -1,4 +1,4 @@
-package com.design.principle.inversion;
+package com.study.code.design_pattern.principle.inversion;
 
 /**
  * @ClassName: DependenceInversion1

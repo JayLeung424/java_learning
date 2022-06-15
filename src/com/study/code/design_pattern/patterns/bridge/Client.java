@@ -1,4 +1,4 @@
-package com.design.patterns.bridge;
+package com.study.code.design_pattern.patterns.bridge;
 
 /**
  * @ClassName: Client

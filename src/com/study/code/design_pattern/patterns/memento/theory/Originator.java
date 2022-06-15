@@ -1,4 +1,4 @@
-package com.design.patterns.memento.theory;
+package com.study.code.design_pattern.patterns.memento.theory;
 
 /**
  * @ClassName: Originator
@@ -15,15 +15,16 @@ public class Originator {
      *
      * @return
      */
-    public Memento saveStateMemento(){
+    public Memento saveStateMemento() {
         return new Memento(state);
     }
 
     /**
      * 通过备忘录对象 恢复状态
+     *
      * @param memento
      */
-    public void getStateFromMemento(Memento memento){
+    public void getStateFromMemento(Memento memento) {
         state = memento.getState();
     }
 

@@ -1,6 +1,5 @@
-package com.design.patterns.proxy.cglib_proxy;
+package com.study.code.design_pattern.patterns.proxy.cglib_proxy;
 
-import com.design.patterns.proxy.static_proxy.ITeacherDao;
 
 /**
  * @ClassName: TeacherDao

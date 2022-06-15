@@ -1,4 +1,4 @@
-package com.design.principle.liskov;
+package com.study.code.design_pattern.principle.liskov;
 
 /**
  * @ClassName: Liskvo

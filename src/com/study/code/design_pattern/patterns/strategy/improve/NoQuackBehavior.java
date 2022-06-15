@@ -1,4 +1,4 @@
-package com.design.patterns.strategy.improve;
+package com.study.code.design_pattern.patterns.strategy.improve;
 
 /**
  * @ClassName: NoQuackBehavior
@@ -6,7 +6,7 @@ package com.design.patterns.strategy.improve;
  * @Author: jiel
  * @Date: 2022/4/21 19:44
  **/
-public class NoQuackBehavior implements QuackBehavior{
+public class NoQuackBehavior implements QuackBehavior {
     @Override
     public void quack() {
         System.out.println("鸭子不会叫～～～");

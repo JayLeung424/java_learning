@@ -11,7 +11,7 @@ public class ThreadDemo {
         // 第一步 和 第二步在Share对象中
         Share share = new Share();
         // 第三步 创建多个线程 调用资源类的操作方法
-        new Thread(()->{
+        new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
                     share.incr();
@@ -19,8 +19,8 @@ public class ThreadDemo {
                     throw new RuntimeException(e);
                 }
             }
-        },"Thread AA").start();
-        new Thread(()->{
+        }, "Thread AA").start();
+        new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
                     share.desr();
@@ -28,8 +28,8 @@ public class ThreadDemo {
                     throw new RuntimeException(e);
                 }
             }
-        },"Thread BB").start();
-        new Thread(()->{
+        }, "Thread BB").start();
+        new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
                     share.incr();
@@ -37,8 +37,8 @@ public class ThreadDemo {
                     throw new RuntimeException(e);
                 }
             }
-        },"Thread CC").start();
-        new Thread(()->{
+        }, "Thread CC").start();
+        new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
                     share.desr();
@@ -46,6 +46,6 @@ public class ThreadDemo {
                     throw new RuntimeException(e);
                 }
             }
-        },"Thread DD").start();
+        }, "Thread DD").start();
     }
 }

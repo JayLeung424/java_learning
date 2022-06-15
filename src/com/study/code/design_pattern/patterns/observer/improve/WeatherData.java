@@ -1,6 +1,4 @@
-package com.design.patterns.observer.improve;
-
-import com.design.patterns.observer.base.CurrentConditions;
+package com.study.code.design_pattern.patterns.observer.improve;
 
 import java.util.ArrayList;
 

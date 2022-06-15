@@ -1,4 +1,4 @@
-package com.design.patterns.facade;
+package com.study.code.design_pattern.patterns.facade;
 
 /**
  * @ClassName: DVDPlayer

@@ -1,4 +1,4 @@
-package com.design.principle.opc.improve;
+package com.study.code.design_pattern.principle.opc.improve;
 
 /**
  * @ClassName: Ocp

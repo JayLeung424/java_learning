@@ -1,4 +1,4 @@
-package com.design.patterns.singleton.enum_type;
+package com.study.code.design_pattern.patterns.singleton.enum_type;
 
 /**
  * @ClassName: EnumSingleTest

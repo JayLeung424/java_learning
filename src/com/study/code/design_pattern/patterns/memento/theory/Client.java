@@ -1,4 +1,4 @@
-package com.design.patterns.memento.theory;
+package com.study.code.design_pattern.patterns.memento.theory;
 
 /**
  * @ClassName: Client
@@ -25,6 +25,6 @@ public class Client {
         // 希望得到状态1  将originator恢复到状态1
         // get(index) -> index是想要获取的第几次
         originator.getStateFromMemento(caretaker.get(2));
-        System.out.println("恢复到状态1, 当前状态是:"+originator.getState());
+        System.out.println("恢复到状态1, 当前状态是:" + originator.getState());
     }
 }

@@ -1,4 +1,4 @@
-package com.design.patterns.memento.game;
+package com.study.code.design_pattern.patterns.memento.game;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Caretaker {
     // 如果对GameRole 保存多个状态
     private List<Memento> mementoList;
     // 对多个游戏角色 保存多个状态
-    private HashMap<String,List<Memento>> mementosMap;
+    private HashMap<String, List<Memento>> mementosMap;
 
     /**
      * 使用只保存一次状态的

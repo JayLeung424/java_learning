@@ -1,4 +1,4 @@
-package com.design.patterns.observer.base;
+package com.study.code.design_pattern.patterns.observer.base;
 
 /**
  * 显示当前天气情况（可以理解成是气象站自己的网站）

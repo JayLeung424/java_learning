@@ -1,4 +1,4 @@
-package com.design.patterns.prototype;
+package com.study.code.design_pattern.patterns.prototype;
 
 /**
  * @ClassName: Sheep

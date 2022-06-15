@@ -1,7 +1,4 @@
-package com.design.patterns.composite;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.study.code.design_pattern.patterns.composite;
 
 /**
  * @ClassName: Department

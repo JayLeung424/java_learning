@@ -1,4 +1,4 @@
-package com.design.patterns.state;
+package com.study.code.design_pattern.patterns.state;
 
 import java.util.Random;
 
@@ -20,6 +20,7 @@ public class CanRaffleState extends State {
 
     /**
      * 可以抽奖了 抽完奖 根据实际情况 设置新的状态
+     *
      * @return
      */
     @Override
@@ -27,11 +28,11 @@ public class CanRaffleState extends State {
         System.out.println("正在抽奖，请稍等！");
         Random r = new Random();
         int num = r.nextInt(10);
-        if(num == 0){
+        if (num == 0) {
             // 设置活动状态为发放奖品 context
             activity.setState(activity.getDispenseState());
             return true;
-        }else{
+        } else {
             System.out.println("很遗憾 没有抽中奖品!");
             // 改变状态为不能抽奖
             activity.setState(activity.getNoRaffleState());

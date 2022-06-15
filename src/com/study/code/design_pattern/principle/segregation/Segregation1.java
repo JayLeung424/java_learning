@@ -1,4 +1,4 @@
-package com.design.principle.segregation;
+package com.study.code.design_pattern.principle.segregation;
 
 /**
  * @ClassName: Segregation1

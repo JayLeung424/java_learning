@@ -1,8 +1,8 @@
-package com.design.patterns.factory.abstract_factory.order;
+package com.study.code.design_pattern.patterns.factory.abstract_factory.order;
 
-import com.design.patterns.factory.abstract_factory.pizza.LondonCheesePizza;
-import com.design.patterns.factory.abstract_factory.pizza.LondonPepperPizza;
-import com.design.patterns.factory.abstract_factory.pizza.Pizza;
+import com.study.code.design_pattern.patterns.factory.abstract_factory.pizza.LondonCheesePizza;
+import com.study.code.design_pattern.patterns.factory.abstract_factory.pizza.LondonPepperPizza;
+import com.study.code.design_pattern.patterns.factory.abstract_factory.pizza.Pizza;
 
 /**
  * @ClassName: BeijingFactory

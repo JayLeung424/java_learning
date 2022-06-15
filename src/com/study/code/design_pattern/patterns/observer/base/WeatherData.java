@@ -1,4 +1,4 @@
-package com.design.patterns.observer.base;
+package com.study.code.design_pattern.patterns.observer.base;
 
 /**
  * 类是核心

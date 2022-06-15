@@ -1,4 +1,4 @@
-package com.design.patterns.proxy.dynamic_proxy;
+package com.study.code.design_pattern.patterns.proxy.dynamic_proxy;
 
 /**
  * @ClassName: Client
@@ -11,7 +11,7 @@ public class Client {
     public static void main(String[] args) {
         // 创建目标对象 - 被代理对象
         ITeacherDao teacherDao = new TeacherDao();
-        // com.design.patterns.proxy.dynamic_proxy.TeacherDao@5cad8086
+        // package com.study.code.design_pattern.patterns.proxy.dynamic_proxy.TeacherDao@5cad8086
         System.out.println(teacherDao);
 
         // 给目标对象 创建代理对象 可以转成ITeacherDao
@@ -20,7 +20,7 @@ public class Client {
 
         // class com.sun.proxy.$Proxy0  可以看出 内存中动态生成了代理对象
         System.out.println("proxyInstance = " + proxyInstance.getClass());
-        // com.design.patterns.proxy.dynamic_proxy.TeacherDao@5cad8086 地址和被代理对象地址一样
+        // package com.study.code.design_pattern.patterns.proxy.dynamic_proxy.TeacherDao@5cad8086 地址和被代理对象地址一样
         System.out.println("proxyInstance = " + proxyInstance);
 
         // 通过代理对象，调用目标对象的方法

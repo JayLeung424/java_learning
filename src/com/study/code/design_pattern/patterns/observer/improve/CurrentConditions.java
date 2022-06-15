@@ -1,6 +1,4 @@
-package com.design.patterns.observer.improve;
-
-import java.util.ArrayList;
+package com.study.code.design_pattern.patterns.observer.improve;
 
 /**
  * @ClassName: CurrentConditions

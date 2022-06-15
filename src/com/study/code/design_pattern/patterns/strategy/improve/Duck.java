@@ -1,4 +1,4 @@
-package com.design.patterns.strategy.improve;
+package com.study.code.design_pattern.patterns.strategy.improve;
 
 import java.util.Objects;
 
@@ -24,16 +24,16 @@ public abstract class Duck {
         System.out.println("鸭子会游泳~~");
     }
 
-    public void fly(){
+    public void fly() {
         // 改进
-        if (Objects.nonNull(flyBehavior)){
+        if (Objects.nonNull(flyBehavior)) {
             flyBehavior.fly();
         }
     }
 
-    public void quack(){
+    public void quack() {
         // 改进
-        if (Objects.nonNull(quackBehavior)){
+        if (Objects.nonNull(quackBehavior)) {
             quackBehavior.quack();
         }
     }

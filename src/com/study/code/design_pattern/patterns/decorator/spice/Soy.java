@@ -1,7 +1,7 @@
-package com.design.patterns.decorator.spice;
+package com.study.code.design_pattern.patterns.decorator.spice;
 
-import com.design.patterns.decorator.Decorator;
-import com.design.patterns.decorator.Drink;
+import com.study.code.design_pattern.patterns.decorator.Decorator;
+import com.study.code.design_pattern.patterns.decorator.Drink;
 
 /**
  * @ClassName: Soy

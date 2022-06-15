@@ -16,19 +16,19 @@ public class SaleTicket {
             for (int i = 0; i < 40; i++) {
                 ticket.sale();
             }
-        },"销售员A").start();
+        }, "销售员A").start();
         new Thread(() -> {
             // 调用卖票的方法
             for (int i = 0; i < 40; i++) {
                 ticket.sale();
             }
-        },"销售员B").start();
+        }, "销售员B").start();
         new Thread(() -> {
             // 调用卖票的方法
             for (int i = 0; i < 40; i++) {
                 ticket.sale();
             }
-        },"销售员C").start();
+        }, "销售员C").start();
 
     }
 }

@@ -1,4 +1,4 @@
-package com.design.patterns.singleton.static_inner;
+package com.study.code.design_pattern.patterns.singleton.static_inner;
 
 /**
  * @ClassName: StaticInnerClass

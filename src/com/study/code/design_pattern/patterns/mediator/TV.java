@@ -1,4 +1,4 @@
-package com.design.patterns.mediator;
+package com.study.code.design_pattern.patterns.mediator;
 
 public class TV extends Colleague {
 

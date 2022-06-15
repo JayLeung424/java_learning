@@ -1,4 +1,4 @@
-package com.design.patterns.template;
+package com.study.code.design_pattern.patterns.template;
 
 /**
  * @ClassName: Client

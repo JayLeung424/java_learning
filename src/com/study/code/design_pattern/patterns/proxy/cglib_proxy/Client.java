@@ -1,4 +1,4 @@
-package com.design.patterns.proxy.cglib_proxy;
+package com.study.code.design_pattern.patterns.proxy.cglib_proxy;
 
 /**
  * @ClassName: Client

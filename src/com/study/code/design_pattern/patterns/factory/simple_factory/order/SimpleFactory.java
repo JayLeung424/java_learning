@@ -1,9 +1,9 @@
-package com.design.patterns.factory.simple_factory.order;
+package com.study.code.design_pattern.patterns.factory.simple_factory.order;
 
-import com.design.patterns.factory.simple_factory.pizza.CheesePizza;
-import com.design.patterns.factory.simple_factory.pizza.GreekPizza;
-import com.design.patterns.factory.simple_factory.pizza.PepperPizza;
-import com.design.patterns.factory.simple_factory.pizza.Pizza;
+import com.study.code.design_pattern.patterns.factory.simple_factory.pizza.CheesePizza;
+import com.study.code.design_pattern.patterns.factory.simple_factory.pizza.GreekPizza;
+import com.study.code.design_pattern.patterns.factory.simple_factory.pizza.PepperPizza;
+import com.study.code.design_pattern.patterns.factory.simple_factory.pizza.Pizza;
 
 /**
  * @ClassName: SimpleFactory

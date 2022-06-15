@@ -1,4 +1,4 @@
-package com.design.patterns.prototype.deepclone;
+package com.study.code.design_pattern.patterns.prototype.deepclone;
 
 import java.io.*;
 

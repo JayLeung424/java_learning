@@ -1,4 +1,4 @@
-package com.design.principle.opc;
+package com.study.code.design_pattern.principle.opc;
 
 /**
  * @ClassName: Ocp

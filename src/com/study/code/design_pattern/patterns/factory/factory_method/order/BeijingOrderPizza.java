@@ -1,8 +1,8 @@
-package com.design.patterns.factory.factory_method.order;
+package com.study.code.design_pattern.patterns.factory.factory_method.order;
 
-import com.design.patterns.factory.factory_method.pizza.BeijingCheesePizza;
-import com.design.patterns.factory.factory_method.pizza.BeijingPepperPizza;
-import com.design.patterns.factory.factory_method.pizza.Pizza;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.BeijingCheesePizza;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.BeijingPepperPizza;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.Pizza;
 
 /**
  * @ClassName: BeiJingOrderPizza

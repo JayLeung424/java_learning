@@ -1,4 +1,4 @@
-package com.design.principle.demeter.improve;
+package com.study.code.design_pattern.principle.demeter.improve;
 
 import java.util.ArrayList;
 import java.util.List;

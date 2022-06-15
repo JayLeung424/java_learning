@@ -1,4 +1,4 @@
-package com.design.patterns.strategy;
+package com.study.code.design_pattern.patterns.strategy;
 
 /**
  * @ClassName: ToyDuck
@@ -6,7 +6,7 @@ package com.design.patterns.strategy;
  * @Author: jiel
  * @Date: 2022/4/21 19:17
  **/
-public class ToyDuck extends Duck{
+public class ToyDuck extends Duck {
     @Override
     public void dispaly() {
         System.out.println("这是一只玩具鸭子");

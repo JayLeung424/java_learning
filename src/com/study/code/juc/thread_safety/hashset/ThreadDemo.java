@@ -18,12 +18,12 @@ public class ThreadDemo {
         // 使用juc中的
         Set hashSet = new CopyOnWriteArraySet();
         for (int i = 0; i < 30; i++) {
-            new Thread(()->{
+            new Thread(() -> {
                 // 往集合中添加内容
-                hashSet.add(UUID.randomUUID().toString().substring(0,8));
+                hashSet.add(UUID.randomUUID().toString().substring(0, 8));
                 // 从集合中获取内容
                 System.out.println(hashSet);
-            },String.valueOf(i)).start();
+            }, String.valueOf(i)).start();
         }
         /** 报错信息
          * java.util.ConcurrentModificationException

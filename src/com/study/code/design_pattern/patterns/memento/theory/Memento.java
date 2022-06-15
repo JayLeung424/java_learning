@@ -1,4 +1,4 @@
-package com.design.patterns.memento.theory;
+package com.study.code.design_pattern.patterns.memento.theory;
 
 /**
  * @ClassName: Memento

@@ -1,4 +1,4 @@
-package com.design.patterns.factory.abstract_factory.pizza;
+package com.study.code.design_pattern.patterns.factory.abstract_factory.pizza;
 
 /**
  * @ClassName: GreekPizza

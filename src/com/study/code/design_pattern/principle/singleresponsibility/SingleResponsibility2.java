@@ -1,7 +1,4 @@
-package com.design.principle.singleresponsibility;
-
-import sun.applet.Main;
-
+package com.study.code.design_pattern.principle.singleresponsibility;
 
 /**
  * @ClassName: SingleResponsibility2

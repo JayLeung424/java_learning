@@ -1,4 +1,4 @@
-package com.design.principle.singleresponsibility;
+package com.study.code.design_pattern.principle.singleresponsibility;
 
 /**
  * @ClassName: SingleResponsibility3

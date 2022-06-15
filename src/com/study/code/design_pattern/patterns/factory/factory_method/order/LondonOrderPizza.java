@@ -1,6 +1,8 @@
-package com.design.patterns.factory.factory_method.order;
+package com.study.code.design_pattern.patterns.factory.factory_method.order;
 
-import com.design.patterns.factory.factory_method.pizza.*;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.LondonCheesePizza;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.LondonPepperPizza;
+import com.study.code.design_pattern.patterns.factory.factory_method.pizza.Pizza;
 
 /**
  * @ClassName: LondonOrderPizza

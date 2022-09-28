@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * @Author: jiel
  * @Date: 2022/6/21 17:53
  **/
-public class NewSingleThreadDemo {
+public class NewSingleThreadPoolDemo {
     public static void main(String[] args) {
 
         // 一池一线程

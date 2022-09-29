@@ -1,4 +1,4 @@
-package com.study.code.juc.callable;
+package com.study.code.juc.future.future_task;
 
 /**
  * @ClassName: MyThread1
@@ -6,7 +6,7 @@ package com.study.code.juc.callable;
  * @Author: jiel
  * @Date: 2022/6/15 10:43
  **/
-class MyThread1 implements Runnable {
+class MyRunnableThread implements Runnable {
     @Override
     public void run() {
 

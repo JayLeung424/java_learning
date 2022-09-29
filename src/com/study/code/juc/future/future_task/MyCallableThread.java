@@ -1,4 +1,4 @@
-package com.study.code.juc.callable;
+package com.study.code.juc.future.future_task;
 
 import java.util.concurrent.Callable;
 
@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
  * @Author: jiel
  * @Date: 2022/6/15 10:43
  **/
-class MyThread2 implements Callable {
+class MyCallableThread implements Callable {
     @Override
     public Integer call() throws Exception {
         try {

@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @ClassName: Ticket
- * @Description: 票
+ * @Description: 票  --- 公平锁 和 非公平锁
  * @Author: jay
  * @Date: 2022/6/5 15:17
  **/

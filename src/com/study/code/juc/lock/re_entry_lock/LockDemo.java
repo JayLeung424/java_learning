@@ -1,4 +1,4 @@
-package com.study.code.juc.lock.re_lock;
+package com.study.code.juc.lock.re_entry_lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -19,16 +19,15 @@ public class LockDemo {
             try {
                 // 上锁
                 lock.lock();
-                System.out.println(Thread.currentThread().getName() + " - 外层");
+                System.out.println(Thread.currentThread().getName() + " - come in 外层调用");
                 try {
                     // 上锁
                     lock.lock();
-                    System.out.println(Thread.currentThread().getName() + " - 内层");
+                    System.out.println(Thread.currentThread().getName() + " - come in 内层调用");
                 } finally {
-                    // 释放
                     // 如果这个不释放 无所谓，这个线程依旧正常执行
-                    // 但是 new thread一直无法消费(不影响自己, 把别人坑了)
-                    // lock.unlock();
+                    // 但是 new thread一直无法消费(不影响自己, 把别人坑了)  因为thread1加锁和释放次数不一样， 第二个线程无法获取到锁，导致一直在等待
+                    // lock.unlock();  // 正常情况 加锁几次 解锁几次
                 }
             } finally {
                 // 释放
@@ -39,8 +38,11 @@ public class LockDemo {
         // create new thread
         new Thread(() -> {
             lock.lock();
-            System.out.println("aaa");
-            lock.unlock();
-        }).start();
+            try {
+                System.out.println(Thread.currentThread().getName() + " - come in ");
+            }finally {
+                lock.unlock();
+            }
+        },"thread2").start();
     }
 }

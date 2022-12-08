@@ -12,7 +12,7 @@ class MyNumber {
     // int number ;
     volatile int number;
 
-    // public synchronized void addPlusPlus() {
+    // public synch ronized void addPlusPlus() {
     public void addPlusPlus() {
         number++;
     }

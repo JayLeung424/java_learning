@@ -47,6 +47,7 @@
 //             int nextc = c + acquires;
 //             if (nextc < 0) // overflow
 //                 throw new Error("Maximum lock count exceeded");
+//             // 这个地方不需要CAS 是因为判断条件 c == 0 保证了只有一个线程可以进入
 //             setState(nextc);
 //             return true;
 //         }
@@ -193,8 +194,9 @@
 //             return true;
 //         if (ws > 0) {
 //             // 由waitStatus的几个取值可以判断这里表示前置节点被取消
+//             // do while 的目的为了找到一个有效(等待状态)的前置节点
 //             do {
-//                 // 如果前节点取消了，那就往前找到一个等待状态的接待你，并排在它的后面
+//                 // 如果前一节点取消了，那就继续往前找到一个等待状态的节点，并排在它的后面
 //                 node.prev = pred = pred.prev;
 //             } while (pred.waitStatus > 0);
 //             // 这里我们由当前节点的前置节点开始，一直向前找最近的一个没有被取消的节点

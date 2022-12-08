@@ -9,10 +9,10 @@ import java.util.concurrent.TimeUnit;
  * @Date: 2022/10/26 11:34
  **/
 class MyNumber {
-    // int number ;
+    // int number;
     volatile int number;
 
-    // public synch ronized void addPlusPlus() {
+    // public synchronized void addPlusPlus() {
     public void addPlusPlus() {
         number++;
     }

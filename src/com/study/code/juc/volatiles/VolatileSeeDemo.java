@@ -4,13 +4,13 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @ClassName: VolatileseeDemo
- * @Description:
+ * @Description: Volatile可见性
  * @Author: jiel
  * @Date: 2022/10/26 10:43
  **/
 public class VolatileSeeDemo {
     // static boolean flag = true;
-    static volatile boolean flag = true;
+    private static volatile boolean flag = true;
 
     public static void main(String[] args) {
         /**
